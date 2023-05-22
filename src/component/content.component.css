@@ -1,0 +1,36 @@
+.content-wrapper {
+  background-color: #f2f5fa;
+  padding: 1rem;
+  border-radius: 5px;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.encrypt-btn:hover,
+.decrypt-btn:hover {
+  color: #fff;
+}
+
+.encrypt-btn {
+  border: 2px solid #da5552;
+  color: #da5552;
+  border-radius: 5px;
+}
+
+.decrypt-btn {
+  border: 2px solid #43aa8b;
+  color: #43aa8b;
+  border-radius: 5px;
+}
+
+.encrypt-btn:hover {
+  background-color: #da5552;
+  border-color: #da5552;
+}
+
+.decrypt-btn:hover {
+  background-color: #43aa8b;
+  border-color: #43aa8b;
+}

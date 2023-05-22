@@ -1,0 +1,57 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 95vw;
+}
+
+.tab-group {
+  display: flex;
+}
+
+.disabled-tab {
+  color: #bebbbb;
+  border-width: 0;
+  border: none;
+  width: 100%;
+}
+
+.encrypt-tab,
+.decrypt-tab {
+  border-style: solid;
+  border-width: 0 0 2px 0;
+  width: 100%;
+}
+
+.encrypt-tab {
+  color: #da5552;
+  border-bottom-color: #da5552;
+}
+
+.decrypt-tab {
+  color: #43aa8b;
+  border-bottom-color: #43aa8b;
+}
+
+.result-text-container {
+  padding: 1rem;
+  border: 3px dashed #000;
+  border-radius: 5px;
+  margin-top: 1rem;
+  word-wrap: break-word;
+}
+
+.result-text-container h4,
+p {
+  text-align: center;
+}
+
+.result-text-container p {
+  color: #444054;
+}
+
+@media screen and (min-width: 680px) {
+  .main-container {
+    width: auto;
+  }
+}
